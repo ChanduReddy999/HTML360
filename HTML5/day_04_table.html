@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Table using HTML</h1>
+    <!-- width, height, cellpadding, cellspacing, bgcolor, border -->
+
+    <caption> <b>Employee Table (using caption tag)</b> </caption>
+    <table  bgcolor="aqua" border="3px" cellspacing="6px" cellpadding="10px">
+        <tr>
+            <th>Emp_id</th>
+            <th>Emp_name</th>
+            <th>Emp_Mobile_Number</th>
+            <th>Emp_Address</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Chandu</td>
+            <td>9381317527</td>
+            <td>Ameerpet</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Vijay</td>
+            <td>1234567890</td>
+            <td>Hyderabad</td>
+        </tr>
+    </table>
+    <br>
+    <table border="3" bgcolor="red" cellspacing="20" cellpadding="20">
+        <tr>
+            <th>sno</th>
+            <th>name</th>
+            <th>mob</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>vijay</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>vishnu</td>
+            <td>123463</td>
+        </tr>
+    </table><br>
+
+    <caption> <b> Table with source files</b></caption>
+    <table border="3">
+        <tr>
+            <th>Image</th>
+            <th>Audio</th>
+            <th>Video/Link</th>
+        </tr>
+        <tr>
+            <td>aa</td>
+            <td>ab</td>
+            <td>ac</td>
+        </tr>
+        <tr>
+            <td>ba</td>
+            <td>bb</td>
+            <td>bc</td>
+        </tr>
+        <tr>
+            <td>ca</td>
+            <td>cb</td>
+            <td><a href="https://www.google.com" target="_blank">google</a></td>
+        </tr>
+        <tr>
+            <td><img src="wallpaper.jpg" alt="shivaji maharaj" width="90px" height="150px"></td>
+            <td><audio src="audiodeva.mp3" controls muted></audio></td>
+            <td><video src="Let_me_down_slowly.mp4" width="200px" height="200px" controls muted></video></td>
+        
+        </tr>
+    </table>
+
+    <h2>Colspan</h2>
+
+    <table border="">
+	    <tr>
+		    <th colspan="3">Name</th>
+		    <th>Address</th>
+    	</tr>
+	    <tr>
+		    <td>A</td>
+    		<td>B</td>
+	    	<td>B</td>
+            <td>C</td>
+    	</tr>
+	    <tr>
+		    <td>C</td>
+    		<td>D</td>
+	    	<td>D</td>
+		    <td>D</td>
+    	</tr>
+        <tr>
+		    <td>C</td>
+    		<td>C</td>
+	    	<td>C</td>
+    		<td>D</td>
+	    </tr>
+
+    </table>
+
+    <h2>Rowspan</h2>
+
+    <table border="">
+	    <tr>
+		    <th rowspan="4">Name</th>
+	    </tr>
+
+	    <tr>
+		    <td>A</td>
+    		<td>B</td>
+	    	<td>B</td>
+            <td>C</td>
+    	</tr>
+	    <tr>
+		    <td>C</td>
+    		<td>D</td>
+	    	<td>D</td>
+		    <td>D</td>
+    	</tr>
+        <tr>
+		    <td>C</td>
+		    <td>C</td>
+		    <td>C</td>
+		<td>D</td>
+	</tr>
+    <tr>
+		<th rowspan="3">Emp_Mobile_Number</th>
+	</tr>
+    <tr>
+		<td>C</td>
+		<td>D</td>
+		<td>D</td>
+		<td>D</td>
+	</tr>
+    <tr>
+		<td>C</td>
+		<td>C</td>
+		<td>C</td>
+		<td>D</td>
+	</tr>
+    <th rowspan="3">Address</th>
+	</tr>
+    <tr>
+		<td>C</td>
+		<td>D</td>
+		<td>D</td>
+		<td>D</td>
+	</tr>
+    <tr>
+		<td>C</td>
+		<td>C</td>
+		<td>C</td>
+		<td>D</td>
+	</tr>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Controls</title>
+</head>
+<body>
+    <!-- required, readonly, disabled, min, max, size, maxlenght, checked, multiple, accept, selected -->
+    <form action="">
+        <input type="text" name="" id=""><br><br>
+        <!-- required -->
+        <input type="password" required name="" id=""><br><br>
+        <!-- <input type="button" value="Submit" name="" id=""> <br><br> -->
+        <button>submit</button><br><br>
+    </form><br>
+    
+    <hr><hr><hr><br>
+
+    <form action="">
+        <!-- readonly -->
+        <input type="text" value="Anonymous - you can't edit the text" readonly name="" id=""><br><br>
+        <input type="password" value="12345678 - you can't edit this" readonly name="" id=""><br><br>
+        <button>Submit</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+
+    <form action="">
+        <!-- disabled -->
+        <input type="text" value="it is disabled" disabled name="" id=""><br><br>
+        <input type="password" value="it is disabled" disabled name="" id=""><br><br>
+        <button disabled>Reset </button>
+        <button>submit</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+    
+    <form action="">
+        <!-- min, max -->
+        <input type="text" name="" id=""><br><br>
+        <input type="number" min="8" max="25" name="" id=""><br><br>
+        <button>Submit</button><br><br>
+        <button>Reset/Clear</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+
+    <form action="">
+        <!-- size (size of the input box) -->
+        <input type="text" size="50" name="" id=""><br><br>
+        <input type="password" size="5" name="" id=""><br><br>
+        <button>Submit</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+
+    <form action="">
+        <!-- maxlength -->
+        <input type="text" maxlength="25" name="" id=""><br><br>
+        <input type="password" maxlength="16" name="" id=""><br><br>
+        <button>Submit</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+
+    <form action="">
+        <!-- checked -->
+        <input type="checkbox" name="" id=""><br>
+        <input type="checkbox" checked name="" id=""><br>
+        <input type="checkbox" checked name="" id=""><br>
+        <input type="checkbox" checked name="" id=""><br><br>
+        <button>Reset</button><br><br>
+        <button>Submit</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+
+    <form action="">
+        <!-- multiple(to select MULTIPLE FILES) -->
+        <input type="file" name="" id=""> <br><br>   <!-- single file -->
+        <input type="file" multiple name="" id=""><br><br>  <!-- Multiple files are selected at a time -->
+        <button>Send/Submit</button><br><br>
+        <button>Clear</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+
+    <form action="">
+        <!-- accept -->
+        <input type="file" accept=".txt" multiple name="" id=""><br><br>
+        <input type="file" accept=".png" multiple name="" id=""><br><br>
+        <input type="file" accept=".txt, .png" multiple name="" id=""><br><br>
+        <input type="file" accept=".txt, .png, .doc, .docs, .pdf, .jpg, .jpeg" multiple name="" id=""><br><br>
+        <button>Submit</button><br><br>
+        <button>Clear</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+
+    <form action="">
+        <!-- selected -->
+        <select name="" id="">
+            <option value="">Select the option</option>
+            <option value="">A</option>
+            <option value="">B</option>
+            <option selected value="">C</option>
+            <option value="">D</option>
+        </select><br><br>
+        <button>Submit</button><br><br>
+        <button>Reset</button>
+    </form><br>
+
+    <hr><hr><hr><br>
+
+</body>
+</html>

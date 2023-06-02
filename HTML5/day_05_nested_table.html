@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+</head>
+<body>
+    <h1>Nested Table</h1>
+    <p>Creating a table inside another table</p>
+
+    <table border="4">
+        <tr>
+            <th>Table-1</th>
+            <th>Table-2</th>
+            <th>Table-3</th>
+        </tr>
+        <tr>
+            <td>
+                <table border="3">
+                    <tr>
+                        <th>name</th>
+                        <th>email</th>
+                    </tr>
+                    <tr>
+                        <td>chandu</td>
+                        <td>chandu@123</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table border="3">
+                    <tr>
+                        <th>name</th>
+                        <th>email</th>
+                    </tr>
+                    <tr>
+                        <td>Sir</td>
+                        <td>Sir@123</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table border="3">
+                    <tr>
+                        <th>name</th>
+                        <th>email</th>
+                    </tr>
+                    <tr>
+                        <td>Reddy's</td>
+                        <td>Reddy's@123</td>
+                    </tr>
+                </table>
+                
+            </td>
+
+        </tr>
+        
+    </table>
+
+    <h1>Table using Colspan</h1>
+
+    <table border="3">
+        <tr>
+            <th colspan="3">Name</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Chandu</td>
+            <td>Reddy</td>
+            <td>Sir</td>
+            <td>Hyd</td>
+        </tr>
+    </table>
+
+
+    <h1>Table using Rowspan</h1>
+
+    <table border="3">
+        <tr>
+            <th>Name</th>
+            <td>ram</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Address</th>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>Bangalore</td>
+        </tr>
+        <tr>
+            <td>Culcatta</td>
+        </tr>
+    </table>
+
+</body>
+</html>
